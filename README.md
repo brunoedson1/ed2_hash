@@ -1,12 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/KWzaodOp)
 
-## Alunos:
-- Felipe Lazzarini Cunha - 201876040
-- Bruno Edson de Paiva Alves - 201876005
-
-## Resposta questões teórias:
-1)
-
 # Atividade Prática Sobre Tabelas Hash
 
 ## Motivação
