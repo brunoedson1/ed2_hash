@@ -1,5 +1,32 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/KWzaodOp)
 
+## Alunos:
+- Felipe Lazzarini Cunha - 201876040
+- Bruno Edson de Paiva Alves - 201876005
+- Giovane Machado Aguiar - 201876019
+
+## Resposta questões teórias:
+1) Para escolher uma função de hash eficiente e minimizar colisões, é importante:
+
+Distribuir os valores uniformemente: Evitar que muitos valores sejam mapeados para o mesmo índice.
+Usar funções matematicamente robustas: Como funções baseadas em métodos de divisão, multiplicação ou hash criptográfico para gerar índices.
+Analisar os dados de entrada: Se possível, entender o padrão dos dados para evitar padrões previsíveis que causem colisões.
+Testar e ajustar: Em aplicações práticas, testar com dados reais pode ajudar a refinar a função.
+
+2) O problema de agrupamentos primários e secundários reduz a eficiência de busca, inserção e exclusão:
+
+Agrupamentos primários: Ocorrem quando várias chaves são mapeadas para índices próximos, formando blocos contíguos. Isso afeta o desempenho no método linear de sondagem.
+Agrupamentos secundários: São mais específicos a sondagem quadrática ou dupla, onde colisões geram agrupamentos não contíguos.
+Para mitigar, usar sondagem dupla ou rehashing pode ajudar.
+
+3) O fator de carga é a relação entre o número de elementos na tabela e o tamanho da tabela.
+
+Efeito: Quanto maior o fator de carga, maior a chance de colisões, piorando o desempenho.
+Soluções:
+Rehashing: Aumentar o tamanho da tabela e recalcular os índices quando o fator de carga ultrapassa um limite (geralmente 0.7 ou 0.75).
+Tabelas maiores desde o início: Planejar o tamanho da tabela para comportar o volume de dados esperado.
+Sondagem eficiente: Combinar endereçamento aberto ou listas ligadas para reduzir o impacto de colisões.
+
 # Atividade Prática Sobre Tabelas Hash
 
 ## Motivação
